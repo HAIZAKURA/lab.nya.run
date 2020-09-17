@@ -16,6 +16,21 @@ body {
     background-position: center;
 }
 
+.pic-author {
+    position: relative;
+    height: 1em;
+    bottom: 1.5em;
+    right: 1em;
+    color: #afafaf;
+    text-shadow: 0px 0px 6px #0f0f0f;
+    text-align: right;
+}
+
+.pic-author a {
+    text-decoration: none;
+    color: #afafaf;
+}
+
 .site-banner-bg-img {
     background-image: url(https://cdn.jsdelivr.net/gh/HAIZAKURA/cdn/img/p2.jpg);
     background-size: cover;
