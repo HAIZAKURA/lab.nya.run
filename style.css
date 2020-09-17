@@ -1,0 +1,84 @@
+body {
+    line-height: 24px;
+    background-color: #eeeeee;
+    font: 14px Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-serif;
+}
+
+.site-banner {
+    position: relative;
+    height: 500px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #393d49;
+}
+
+.site-banner-bg {
+    background-position: center;
+}
+
+.site-banner-bg-img {
+    background-image: url(https://cdn.jsdelivr.net/gh/HAIZAKURA/cdn/img/p2.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+
+.site-banner-bg,
+.site-banner-main {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.site-desc {
+    position: relative;
+    height: 70px;
+    margin-top: 180px;
+}
+
+.web-font-desc {
+    color: rgba(255, 255, 255, 1);
+    font-size: 60px;
+    text-shadow: 0px 0px 6px #0f0f0f;
+}
+
+.sub {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    margin-top: 20px;
+    font-style: normal;
+    text-shadow: 0px 0px 6px #0f0f0f;
+}
+
+.btn {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    margin-top: 60px;
+    font-style: normal;
+}
+
+.body-content {
+    height: 150px;
+}
+
+.body-footer {
+    text-align: right;
+}
+
+.foot-hr {
+    margin-top: 20px;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
